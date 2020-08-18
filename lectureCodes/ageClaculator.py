@@ -1,5 +1,5 @@
 #assing value of current date
-pd ,pm , py = 29,7,2020
+pd ,pm , py = 17,8,2020
 #read value of current date
 bd,bm,by =int( input("enter day of birth")),int( input("enter month of birth")),int(input("enter year of birth"))
 #calculate number of year 
