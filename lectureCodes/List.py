@@ -30,12 +30,31 @@
 # print(type(textList[len(textList)-1]))
 # textList.append(numList)
 # print(textList)
-list1 = ["abac", "dfge",'f']
-list2 = [ 1 , 2 , 3, 4 ,2 , 3 ,2]
+# list1 = ["abac", "dfge",'f']
+# list2 = [ 1 , 2 , 3, 4 ,2 , 3 ,2]
 # print(list1.index("de"))
-print(list1[1].index('e'))
-print(list1.count('f'))
-print(list2.count(2))
+# print(list1[1].index('e'))
+# print(list1.count('f'))
+# print(list2.count(2))
+
+"""  ex3 """
+# l = [1,2,3,4]
+# l.insert(2,6)
+# print(l)
+# s=l.pop()
+# print(l, "return ", s ,sep= "\n " )
+
+# l.remove(l[2])
+# l.remove(3)
+# print(l)
+l1 = []
+for i in range(0,len(l1)):
+    
+    
+
+
+
+
 
 
 
