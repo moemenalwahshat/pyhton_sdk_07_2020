@@ -47,8 +47,11 @@
 # l.remove(l[2])
 # l.remove(3)
 # print(l)
-l1 = []
-for i in range(0,len(l1)):
+""" ex4 """
+l = [1 ,2 ,[0 ,5 ,"hi"],6,"ab"]
+print(l[2][0])
+print(l[2][2][1])
+print(l[4][1])
     
     
 

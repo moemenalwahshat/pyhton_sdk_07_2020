@@ -75,19 +75,22 @@ Created on Sat Aug 22 16:16:52 2020
 
 """ split build """
 
-# def splitNew(string,sep) :
-#     l= []
-#     j =0
-#     for i in range(0,len(string)) :
-#         if string[i] == sep :
-#             l.extend(string[j:i]) 
-#         j = i  
-#         if(string[i] == sep and i== len(string)-2 ) :
-#             l.extend(string[j:i+1]) 
+def splitNew(string,sep) :
+    l= []
+    sepCount= string.count(sep)
+    count =0
+    j =0
+    for i in range(0,len(string)) :
+        if string[i:i+len(sep)] == sep[:] :
+            l.extend(string[j:i]) 
+            count+=1
+        j = i  
+        if(string[i:i+len(sep)] == sep and sepCount==count ) :
+            l.append(string[i+1:]) 
             
-#     return l   
+    return l   
 
-# print(splitNew("herem" ,"e"))        
+print(splitNew("hermerfgernmh" ,"er"))        
  
            
     
