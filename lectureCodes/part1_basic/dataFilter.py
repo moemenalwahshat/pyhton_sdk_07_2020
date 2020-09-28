@@ -16,5 +16,9 @@ s =   set(countryList)
 import pandas as pd
 
 data = pd.DataFrame(s)   
+<<<<<<< HEAD
 data.to_excel(("C:\\Users\\share\\Desktop\\c.xlsx"),index= 0) 
+=======
+data.to_excel(("C:\\Users\\user2\\Desktop\\c1.xlsx"),index= 0) 
+>>>>>>> c4b77a5c713eead44b7a314f52ab299a152c1fb7
 
