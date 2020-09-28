@@ -5,22 +5,25 @@ Created on Sat Aug 29 16:37:23 2020
 @author: user2
 """
 
-# t1 = ("a" ,"b","c")
-# t2 = ("a" ,"b","c",("a" ,"b","c"))
-# t3 =(1,2,3)
-# t[0]="m" # error
-# l = [1]
-# n= (5)
-# print(type(n))
-# n= (5,)
-# print(type(n))
-# n=()
-# print(type(n))
-# print(t1+t2)
-# print(t1*3)
-# print(t1 in t2)
-# for i in t1:
-#     print(i)
+t1 = ("a" ,"b","c")
+t2 = ("a" ,"b","c",("a" ,"b","c"))
+t3 =(1,2,3)
+t1[0]="m" # error
+
+n= (5)
+print(type(n))
+n= (5,)
+print(type(n))
+n=()
+print(type(n))
+print(t1+t2)
+print(t1*3)
+print(t1 in t2)
+for i in t1:
+    print(i)
+
+
+
 """ set """
 # s = {1,"a",2,"b"}
 
